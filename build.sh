@@ -11,7 +11,7 @@ rm /media/sf_shared/kingkang/Image.lz4-dtb;
 rm /media/sf_shared/kingkang/dtbo;
 rm /media/sf_shared/kingkang.zip;
 
-make rohan_defconfig;
+make wahoo_defconfig;
 time make ARCH=arm64 SUBARCH=arm64 CROSS_COMPILE=aarch64-linux-android-;
 echo 'Build complete'
 
