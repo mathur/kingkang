@@ -9,7 +9,6 @@ export COMPILER_NAME=".Y.";
 echo 'Cleaning up old files';
 rm /media/sf_shared/kang/Image.lz4-dtb;
 rm /media/sf_shared/kang/dtbo;
-rm /media/sf_shared/kang.zip;
 
 make kang_defconfig;
 time make ARCH=arm64 SUBARCH=arm64 CROSS_COMPILE=aarch64-linux-android-;
